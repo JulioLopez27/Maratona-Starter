@@ -1,0 +1,252 @@
+
+/* GENERICO */
+body {
+    font-family: 'Epilogue', sans-serif;
+    color: #0B090A;
+}
+
+.btn {
+    padding: 20px 40px;
+    /* color letra */
+    color: #FFFFFF;
+    /* mayuscula mediante css */
+    text-transform: uppercase;
+    font-size: 1.0rem;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-sm {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: #E5383B;
+    font-weight: 700;
+}
+
+.btn-primary:hover {
+    background-color: #BA181B;
+    border-radius: 5px;
+}
+
+/* trata caract. exterior btn */
+.btn-outline {
+    /* caracteristicas borde */
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+}
+
+.btn-outline:hover {
+    border-color: #E5383B;
+    border-radius: 5px;
+}
+
+/* se usa para expandir y no dejar espacios en blaco en los extremos */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* css for header-services */
+
+.overtitle {
+    color: #E5383B;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: 700;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* layout HEADER*/
+/* rellenar todo el segmento con color */
+/* elemento */
+#header-container {
+    background-color: #0B090A;
+}
+
+.header {
+    color: #FFFFFF;
+    padding: 24px 72px;
+
+    display: flex;
+    /* aliniacion horizontal */
+    justify-content: space-between;
+    /* aliniacion vertical */
+    align-items: center;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* LAYOUT HERO-SECTION */
+
+#hero-container {
+    background-color: #0B090A;
+    color: #FFFFFF;
+    padding: 0px 72px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 96px 0px;
+}
+
+.hero-text__title {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.hero-text__paragraph {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 549px;
+}
+
+.hero-img {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.hero-img img {
+    max-width: 100%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* SERVICES LAYOUT */
+
+#services-container {
+    padding: 96px 72px;
+}
+
+.services-list {
+    margin-top: 48px;
+    display: flex;
+    gap: 32px;
+}
+
+.service-card {
+    background-color: #F5F3F4;
+    border: 2px solid #D3D3D3;
+    border-radius: 0 0 10px 10px;
+}
+
+.service-card:hover {
+    box-shadow: 3px 3px 2px 1px rgba(35, 34, 34, 0.5);
+}
+
+.service-card img {
+    width: 100%;
+}
+
+.service-card__text {
+    padding: 32px;
+}
+
+.service-card__text h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.service-card__text p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* LOCATION LAYOUT */
+
+#location-container {
+    background-color: #F5F3F4;
+    padding: 48px 0 0;
+}
+
+.location {
+    padding: 96px 72px 48px;
+}
+
+.location-container addres {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------  */
+
+/* FOOTER LAYOUT */
+
+footer {
+    background-color: #161A1D;
+    color: #FFFFFF;
+    padding: 48px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    padding: 10px 0px 5px 0px;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer a {
+    color: currentColor;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-facebook:hover {
+    color: #0066ff;
+}
+
+.footer-twitter:hover {
+    color: #1d9bf0;
+}
+
+.footer-instagram:hover {
+    color:#c62bce;
+}
+
+
+.footer-linkedin:hover {
+    color: #1866dc;
+    
+}
+
+.footer-github:hover {
+    color: #857f7f ;
+}
