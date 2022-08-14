@@ -1,0 +1,107 @@
+/* 
+Colores fuentes
+blue1:#19456B
+blu2:#11698E
+green1:#16C79A
+white1: #FFFFFF
+white2:#F8F1F1
+*/
+
+/* LAYOUT GENERICO */
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #f8f1f1;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 20px 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+}
+
+.btn-sm {
+    padding: 12px 24px;
+    color: #19456B;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn-primary {}
+
+.btn-outline {
+    border: 2px solid #19456B;
+    border-radius: 90px;
+}
+
+/* LAYOUT HEADER */
+
+.header {
+    padding: 24px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LAYOUT HERO-SECTION */
+
+/* LAYOUT SERVICES */
+
+/* LAYOUT FOOTER */
+
+footer {
+    background-color: #19456B;
+    color: #FFFFFF;
+
+    padding: 48px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer svg{
+    color: #FFFFFF;
+}
+
+#footer-copyright {
+    padding: 10px 0 5px 0;
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.footer-social-media {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-facebook:hover {
+    color:#0066ff;
+}
+
+.footer-twitter:hover {
+    color: #1d9bf0;
+}
+
+.footer-instagram:hover {
+    color: #c62bce;
+}
+
+
+.footer-linkedin:hover, .footer-github:hover {
+    /* color: #1866dc; */
+    color:#16C79A;
+}
+
+/* .footer-github:hover {
+    color: #000000 ;
+  }   */
