@@ -22,9 +22,9 @@ body {
     padding: 20px 40px;
     color: #FFFFFF;
     text-transform: uppercase;
-
     display: flex;
     align-items: center;
+    
 }
 
 .btn-sm {
@@ -33,15 +33,36 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    gap: 10px;
+}
+.btn-sm:hover{
+    background-color: #16C79A;
+    color: #f8f1f1;
 }
 
-.btn-primary {}
+.btn-primary {
+    padding: 20px 40px;
+    background-color: #16C79A;
+    border-radius: 90px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    gap:20px
+}
+.btn-primary:hover{
+    color: #16C79A;
+    background-color: #19456B;
+    
+}
 
 .btn-outline {
     border: 2px solid #19456B;
     border-radius: 90px;
 }
 
+
+/* ----------------------------------------------------------------------------------------------- */
 /* LAYOUT HEADER */
 
 .header {
@@ -51,10 +72,57 @@ body {
     align-items: center;
 }
 
+/* --------------------------------------------------------------------------------------------------- */
 /* LAYOUT HERO-SECTION */
 
+.hero-container {
+    padding: 0px 72px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 96px 0px;
+    gap: 10px;
+}
+
+.hero-text__title {
+    color: #19456B;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.hero-text__paragraph {
+    color: #19456B;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 549px;
+    margin-bottom: 20px;
+}
+
+.hero-img{
+    flex: 1;
+    align-self:flex-end ;
+}
+.hero-img img {
+    max-width: 100%;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
 /* LAYOUT SERVICES */
 
+/* --------------------------------------------------------------------------------------------------- */
 /* LAYOUT FOOTER */
 
 footer {
@@ -106,10 +174,11 @@ footer a {
 #link-project a {
     /* color: #FFFFFF; */
     font-weight: 600;
-    
+
     font-size: 16px;
     line-height: 24px;
 }
+
 #link-project a:hover {
     color: #16C79A;
 }
