@@ -67,7 +67,7 @@ footer {
     align-items: center;
 }
 
-footer svg{
+footer a {
     color: #FFFFFF;
 }
 
@@ -81,11 +81,12 @@ footer svg{
 
 .footer-social-media {
     display: flex;
+    align-items: center;
     gap: 25px;
 }
 
 .footer-facebook:hover {
-    color:#0066ff;
+    color: #0066ff;
 }
 
 .footer-twitter:hover {
@@ -97,11 +98,18 @@ footer svg{
 }
 
 
-.footer-linkedin:hover, .footer-github:hover {
-    /* color: #1866dc; */
-    color:#16C79A;
+.footer-linkedin:hover,
+.footer-github:hover {
+    color: #16C79A;
 }
 
-/* .footer-github:hover {
-    color: #000000 ;
-  }   */
+#link-project a {
+    /* color: #FFFFFF; */
+    font-weight: 600;
+    
+    font-size: 16px;
+    line-height: 24px;
+}
+#link-project a:hover {
+    color: #16C79A;
+}
