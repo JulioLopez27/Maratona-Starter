@@ -160,19 +160,21 @@ body {
 .service-card img {
     width: 100%;
 }
-.service-card-text{
-    padding:32px;
-    gap:10px;
+
+.service-card-text {
+    padding: 32px;
+    gap: 10px;
 }
 
-.service-card-text h3{
+.service-card-text h3 {
     color: #FFFFFF;
     font-size: 24px;
     line-height: 32px;
     font-weight: 800;
     margin-bottom: 8px;
 }
-.service-card-text p{
+
+.service-card-text p {
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
@@ -182,14 +184,34 @@ body {
 
 /* ---------------------------------------------------------------------------------------------------- */
 /* LAYOUT LOCATION */
+.location-container {
+    padding: 48px 0 0;
+}
 
+.location {
+    padding: 60px 72px 48px;
+}
 
+.location-overtitle {
+    color: #11698E;
+}
+
+.location-title {
+    color: #19456B;
+}
+
+.location address {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
 /* --------------------------------------------------------------------------------------------------- */
 /* LAYOUT FOOTER */
 
 footer {
-    background-color: #19456B;
+    background-color: #11698E;
     color: #FFFFFF;
 
     padding: 48px 72px;
@@ -216,32 +238,26 @@ footer a {
     gap: 25px;
 }
 
-.footer-facebook:hover {
-    color: #0066ff;
-}
-
+.footer-instagram:hover,
+.footer-facebook:hover,
 .footer-twitter:hover {
-    color: #1d9bf0;
-}
-
-.footer-instagram:hover {
-    color: #c62bce;
+    color: #1a1a1a;
 }
 
 
 .footer-linkedin:hover,
 .footer-github:hover {
-    color: #16C79A;
+    color: #111111;
 }
 
 #link-project a {
     /* color: #FFFFFF; */
-    font-weight: 600;
+    font-weight: 700;
 
     font-size: 16px;
     line-height: 24px;
 }
 
 #link-project a:hover {
-    color: #16C79A;
+    color: #000000;
 }
